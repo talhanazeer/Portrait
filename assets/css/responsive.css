@@ -1,0 +1,823 @@
+/* ***************************************
+******************************************1199 */
+
+@media (max-width: 1600px) {
+    /* Home Page Start */
+    .search-main {
+        left: 12%;
+    }
+    /* Home Page Ends*/
+
+}
+
+@media (max-width: 1399px) {
+     /* Home Page Start */
+     .search-main {
+        left: 4.4%;
+    }
+    .search-main {
+        max-width: 91.3%;
+    }
+    .top-heading h3 {
+        font-size: 40px;
+    }
+    .top-heading p {
+        font-size: 20px;
+    }
+    .continents-header a {
+        font-size: 50px;
+    }
+    .top-heading {
+        margin-bottom: 50px;
+    }
+    .footer ul {
+        padding-left: 0;
+    }
+    /* Home Page Ends*/
+    /* Contact US Start */
+    .contact-box .contact-details h3 {
+        font-size: 20px;
+    }
+    .contact-box .contact-details p, .contact-box .contact-details p a {
+        font-size: 14px;
+    }
+    .contact-box .contact-details ul {
+        padding: 0 10px;
+    }
+    .get-in-touch {
+        padding: 50px 255px;
+    }
+    .contact-form {
+        padding: 0 85px;
+    }
+    .timings .time .time-content h3 {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .timings .time .time-content p {
+        font-size: 16px;
+    }
+    .get-in-touch {
+        padding: 50px 180px;
+    }
+    /* Contact Us Ends */
+    /* Airline Start */
+    .airline-search .form-control {
+        border: 6px solid #3e86f5;
+        padding: 18px 16px;
+    }
+    /* Airline Ends */
+    /* Fare Details Start*/
+    .pop-up .modal-body {
+        padding: 0 30px;
+    }
+   
+       /* Fare Details Ends*/
+
+}
+
+
+/* ***************************************
+******************************************1199 */
+
+@media (max-width: 1199px) {
+    /* Home Start */
+    .footer ul {
+        padding-left: 20px;
+    }
+    .footer-inner{
+        border: none !important;
+    }
+    .search-main {
+        top: -115px;
+    }
+    .flights-btns p:nth-of-type(1)::after {
+        top: 80.4%;
+    }
+    .flights-btns p:nth-of-type(2)::after {
+        top: 80.4%;
+    }
+    .top-heading {
+        margin-bottom: 35px;
+        margin-top: 225px;
+    }
+    .form-box.border-end {
+        border-right: none !important;
+    }
+    .fares-listing {
+        padding: 0px 15px 49px 15px;
+    }
+    .fares-listing ul li a span {
+        margin-left: 25px;
+    }
+    .footer .footer-logo {
+        margin-bottom: 35px;
+    }
+    .footer-inner {
+        border-right: 1px solid #fff;
+        margin-bottom: 45px;
+    }
+    .bottom-footer {
+        padding: 25px 0;
+    }
+    .navigation .nav-bar {
+        top: -20px;
+    }
+    .footer h3 {
+        font-size: 20px;
+    }
+    .footer ul li a, .footer ul li {
+        font-size: 16px;
+    }
+    
+    /* Home End */
+    /* Country Page Start */
+    .country-main h2 , .contact-form .form h2, .city-pkg h2 ,.main-privacy-box h2 , .get-in-touch h2{
+        font-size: 30px;
+    }
+    .country-main p, .city-pkg p:nth-of-type(1) {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    
+     
+    .sub-page .breadcrumb-item a, .sub-page .breadcrumb-item.active{
+        font-size: 18px;
+    }
+     
+    .load-more-btn , .country-main{
+        margin-top: 20px;
+    }
+    .page-pad {
+        padding-bottom: 45px;
+    }
+    .sub-page .stellarnav ul li a {
+        color: #565656;
+    }
+    /* Country Page Ends */
+    /* Cities PAge Start */
+    .city-box p:nth-of-type(1) {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .city-box p:nth-of-type(2) {
+        font-size: 16px;
+    }
+    .city-box p:nth-of-type(3) {
+        font-size: 35.82px;
+    }
+    .city-box p:nth-of-type(4) {
+        font-size: 30.56px;
+    }
+    .veiw-btn a {
+        font-size: 20px;
+    }
+    .veiw-btn a::after {
+        height: 47px;
+    }
+    .city-box p:nth-of-type(4) span sup {
+        font-size: 18.13px;
+    }
+    /* Cities Page End */
+    /* Privacy Page Start */
+    .main-privacy-box h2 {
+        margin-bottom: 15px;
+    }
+    .main-privacy-box p {
+        margin-bottom: 10px;
+    }
+    .main-privacy-box p {
+        font-size: 16px;
+    }
+    .cities-page .breadcrumb {
+        margin-bottom: 10px;
+    }
+    /* Privacy  Page End */
+    /* Contact Us Page Start */
+    .contact-box {
+        margin-bottom: 20px;
+    }
+   
+    .get-in-touch {
+        padding: 25px 130px;
+    }
+    .contact-form {
+        padding: 0 40px;
+    }
+    .contact-input img {
+        left: 88%;
+    }
+    /* Contact US Page Ends */
+    /* Airline Start */
+    .airline-page .page-pad {
+        padding-bottom: 50px;
+    }
+    .airlines ul li {
+        max-width: 25%;
+        flex: 0 0 25%;
+    }
+    /* Airline Ends */
+/* Details Page Start */
+.dep-box {
+	margin-left: 15px;
+}
+.dep-box h3, .dest-box h3 {
+	font-size: 22px;
+    margin-bottom: 5px;
+}
+.dep-box p:nth-of-type(1), .dest-box p:nth-of-type(1) {
+	font-size: 12px;
+    margin-bottom: 5px;
+
+}
+.dep-box img {
+	left: 125%;
+}
+.price-box h3 {
+	font-size: 16.28px;
+}
+.price-box a {
+	padding: 3px 8px;
+}
+.fare-contact-box P:nth-of-type(2) {
+	font-size: 14px;
+}
+.main-box {
+	padding: 20px 13px 15px 13px;
+}
+.fare-box::after {
+	width: 305px;
+}
+.pop-up .modal-header h5 {
+    font-size: 22px;
+}
+.fare-enquiry {
+	padding: 48px 10px 0;
+}
+.pop-up .modal-header {
+	padding: 25px 50px 15px;
+	border: none;
+}
+.pop-up .modal-footer {
+	padding: 25px 0;
+}
+/* Details Page Ends */
+}
+
+
+/* ***************************************
+******************************************991 */
+
+@media (max-width: 991px) {
+    /* Home Start */
+    .search-main {
+        top: 50px;
+        position: relative;
+        box-shadow: -5px 5px 15px -1px rgba(0, 0, 0, 0.288);
+        border-radius: 20px 20px 0 0;
+    }
+    .form-box,.search{
+        width: 98.6%;
+    }
+    .flights-btns{
+        display: flex;
+        width: 102.4%;
+    }
+    .flights-btns p{
+        flex: 0 0 50%;
+        text-align: center;
+    }
+    .top-heading {
+        margin-bottom: 35px;
+        margin-top: 115px;
+    }
+    .continents-header a {
+        margin-bottom: -10px;
+    }
+   
+    .destination-all h3, .main-privacy-box h3 {
+        font-size: 22px;
+    }
+    .destination-all span {
+        font-size: 24px;
+    }
+    .fares-listing ul li{
+        display: block;
+        flex: 0 0 100%;
+    }
+    .search {
+        padding: 25px 0;
+    }
+    .fares-listing ul li a span {
+        margin-left: 129px;
+    }
+    .fares-listing {
+        padding: 0px 15px 28px 15px;
+    }
+    .continents-footer {
+        padding: 10px 0 0 0;
+    }
+    .continents {
+        margin-bottom: 65px;
+    }
+    .footer-inner {
+        border-right: none;
+    }
+    .top-heading h3, .continents-header a  {
+        font-size: 35px;
+    }
+    .top-heading p , .destination-all p , .bottom-footer h5 ,.fare-enquiry .btn {
+        font-size: 18px;
+    }
+    .navigation .nav-bar {
+        top: -45px;
+    }
+    .stellarnav.mobile{
+        text-align: end;
+    }
+    .stellarnav ul li {
+        margin-right: 0px;
+    }
+    .stellarnav.mobile ul {
+        background: #0080ffa6;
+    }
+    .stellarnav ul li.active a:hover {
+        background-color: #3e86f5;
+        color: #fff;
+    }
+    .stellarnav ul li.active a{
+        color: #fff;
+        background-color: #3e86f5;
+    }
+    .stellarnav .icon-close::after,.stellarnav .icon-close::before {
+        border-bottom: solid 3px #fff;
+    }
+    .stellarnav.mobile.right .close-menu, .stellarnav.mobile.left .close-menu {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .bottom-footer p {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    
+    .bottom-footer {
+        padding: 15px 0;
+    }
+    .stellarnav .menu-toggle {
+        color: #fff;
+        font-weight: 600;
+        font-size: 22px;
+        position: relative;
+        right: -15px;
+    }
+    .stellarnav .menu-toggle span.bars span {
+        width: 25px;
+        height: 4px;
+        background: #fff;
+    }
+    .call-now a span ,  .call-now a {
+        font-size: 14px;
+    }
+ 
+    /* Home End */
+    /* Country Page Start */
+    
+    .dest-city p:nth-of-type(2) {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .dest-city p:nth-of-type(3) span:nth-of-type(1) {
+        font-size: 16px;
+    }
+    .dest-city p:nth-of-type(3) span:nth-of-type(2) {
+        font-size: 18.7px;
+    }
+   .sub-page .stellarnav .menu-toggle span.bars span {
+        background: #3e86f5;
+    }
+    .sub-page .stellarnav .menu-toggle {
+        color: #3e86f5;
+    }
+    .country-page .page-pad {
+        padding-top: 100px;
+    }
+    .dest-city {
+        padding: 20px 15px 18px;
+    }
+    .country-main p {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .dest-city p:nth-of-type(1) , .dest-city p:nth-of-type(2)  {
+        font-size: 16px;
+    }
+    .dest-city a:nth-last-of-type(1){
+        font-size: 20px;
+    }
+    .stellarnav.mobile.right > ul, .stellarnav.mobile.left > ul {
+        width: 50%;
+    }
+    /* Country Page End */
+    /* Cities Page Start */
+    .city-pkg {
+        padding: 0 35px;
+    }
+    .cities-page .page-pad, .privacy-page .page-pad, .contact-page .page-pad,.fares-page .page-pad {
+        padding-top: 85px;
+    }
+    .main-privacy-box ul:nth-of-type(1), .main-privacy-box ul:nth-of-type(2) {
+        padding-left: 35px;
+        margin-bottom: 20px;
+    }
+    .main-privacy-box ul:nth-of-type(2) li{
+        font-size: 16px;
+    }
+    .contact-form .form {
+        padding: 30px 30px 15px;
+    }
+    /* Cities Page End */
+    /* Airline Start */
+   .airline-page .page-pad {
+        padding-top: 100px;
+    }
+    .airline-search {
+        max-width: 400px;
+        margin-top: 30px;
+    }
+    .airlines ul li {
+        max-width: 32.99%;
+        flex: 0 0 32.99%;
+    }
+    .airlines {
+        margin-top: 45px;
+    }
+    /* Airline Ends */
+    /* Fare Details Start */
+    .modal-content {
+        width: 90%;
+        margin: auto;
+    }
+    .pop-up .modal-body .enquiry-btns p:nth-of-type(2) {
+        padding: 7px 16px 6px 20px;
+    }
+    .pop-up .modal-body .enquiry-btns p {
+        font-size: 14px;
+    }
+    .pop-up .btn-close {
+        height: 20px;
+        width: 20px;
+    }
+    .pop-up .btn-close img {
+        transform: translateY(8%);
+    }
+    
+    /* Fare Details Ends */
+}
+
+
+/* ***************************************
+******************************************767 */
+
+@media (max-width: 767px) {
+    /* Home Start */
+    .flights-btns {
+        width: 103.4%;
+    }
+    .stellarnav ul li a {
+        color: #565656;
+    }
+    .stellarnav ul li a , .timings .time .time-content p {
+        font-size: 14px;
+
+    }
+    .fares-listing ul li{
+        flex: 0 0 50%;
+    }
+    .fares-listing ul li a span {
+        margin-left: 50px;
+    }
+    .fares-listing {
+        padding: 0px 15px 40px 15px;
+    }
+    .travixum-slider .swiper-button-next, .travixum-slider .swiper-button-prev {
+        width: 25px;
+        height: 25px;
+    }
+    .search {
+        padding: 15px 0;
+    }
+    .search h3 {
+        margin-bottom: 0;
+    }
+    ul.social-links {
+        margin-bottom: 5px;
+    }
+    /* Home Start */
+    /* Country PAge Start */
+    .dest-city {
+        max-width: 80%;
+        margin: 0 auto 20px;
+    }
+    .sub-page .navigation .nav-bar {
+        top: -80px;
+    }
+    .country-page .page-pad {
+        padding-top: 65px;
+    }
+    .sub-page .stellarnav .menu-toggle {
+        font-size: 0;
+    }
+    .sub-page .breadcrumb-item a , .timings .time .time-content h3 {
+        font-size: 16px;
+    }
+    .dest-city a:nth-last-of-type(1) {
+        font-size: 18px;
+    }
+    .country-main h2 , .city-pkg h2 , .contact-form .form h2 ,.get-in-touch h2 {
+        font-size: 22px;
+    }
+    /* Country Page Ends */
+    /* Cities PAge Start */
+    .city-pkg {
+        padding: 0 40px;
+        margin-top: 40px;
+    }
+    /* Cities page Ends */
+    /* Privacy Page Start */
+   .contact-page .page-pad ,
+    .privacy-page .page-pad {
+        padding-top: 50px;
+      }
+      .main-privacy-box ul:nth-of-type(1), .main-privacy-box ul:nth-of-type(2) {
+        margin-bottom: 10px;
+    }
+    .main-privacy-box ul:nth-of-type(1), .main-privacy-box ul:nth-of-type(2) {
+        padding-left: 18px;
+        margin-bottom: 20px;
+    }
+    .main-privacy-box h2 {
+        font-size: 22px;
+      }
+      .destination-all h3, .main-privacy-box h3 {
+        font-size: 18px;
+    }
+    .privacy-page .page-pad {
+        padding-bottom: 20px;
+    }
+      /* Privacy Page End */
+      /* Contact US Page Start*/
+      .get-in-touch {
+        padding: 25px 30px;
+    }
+    .contact-input input[type="submit"] {
+        margin-top: -5px;
+    }
+   
+     
+    .contact-form {
+        padding: 0 20px;
+    }
+    .contact-page .page-pad {
+        padding-bottom: 50px;
+    }
+      /* Contact US Page Start*/
+/* Airline Start */
+.airlines ul li {
+	max-width: 50%;
+	flex: 0 0 50%;
+}
+.airline-page .page-pad {
+	padding-top: 50px;
+}
+/* Airline Ends */
+/* Fare Page Start */
+.fares-page .page-pad {
+    padding-top: 50px;
+  }
+  .sub-page .breadcrumb-item a, .sub-page .breadcrumb-item.active {
+	font-size: 16px;
+}
+.pop-up .modal-header {
+	padding: 25px 30px 15px;
+}
+.pop-up .modal-header h5 {
+	font-size: 20px;
+}
+  /* Fare Page Ends */
+}
+
+
+/* ***************************************
+******************************************576 */
+
+@media (max-width: 575px) {
+    /* Home Start */
+    .flights-btns {
+        width: 107.4%;
+    }
+    .travixum-slider .swiper-button-next, .travixum-slider .swiper-button-prev {
+        top: 110px;
+    }
+    .stellarnav .menu-toggle {
+        font-size: 0;
+        right: -20px;
+        top: -17px;
+    }
+    .country-main p, .city-pkg p:nth-of-type(1) ,
+    .search h3, .top-heading p, .view-fares .btn-fares {
+        font-size: 16px;
+    }
+    .top-heading h3 ,.continents-header a{
+        font-size: 25px;
+    }
+    .continents-header a {
+        margin-bottom: -15px;
+    }
+    .fares-listing ul li {
+        display: block;
+        flex: 0 0 100%;
+    }
+    .fares-listing ul li a span {
+        margin-left: 89px;
+    }
+    .footer h3 {
+        font-size: 18px;
+    }
+    .footer ul li a, .footer ul li {
+        font-size: 14px;
+    }
+    .continents {
+        margin-bottom: 65px;
+        max-width: 297px;
+        margin: 0 auto 40px;
+    }
+    .search-main {
+        max-width: 278px;
+        margin: auto;
+        left: 0;
+    }
+    /* Home Start */
+    /* Country Page Start */
+    .dest-city , .city-main{
+        max-width: 460px;
+        margin: 0 auto 20px;
+    }
+    .city-main , .contact-box {
+        max-width: 400px;
+        margin:0 auto 20px;
+    }
+    .dest-city p:nth-of-type(1), .dest-city p:nth-of-type(2) {
+        font-size: 15px;
+    }
+    .sub-page .navigation .nav-bar {
+        top: -70px;
+    }
+    /* Country Page End */
+    /* Cities Start */
+    .city-pkg {
+        padding: 0;
+    }
+    /* Cities Page End */
+    /* Contact Page Start */
+    .stellarnav ul li a, .fare-enquiry .enq-disclamer p, .fare-enquiry .enq-content p , .fare-enquiry .enq-input .form-label , .pop-up .modal-body .enquiry-btns p , .timings .time .time-content p, .contact-box .contact-details p, .contact-box .contact-details p a {
+        font-size: 13px;
+    }
+    .contact-box .contact-details {
+        text-align: left;
+    }
+    .timings {
+        margin-top: 40px;
+        flex-direction: column;
+        align-items: self-start;
+    }
+    .contact-form .form {
+        padding: 20px 15px 15px;
+    }
+    .contact-input img {
+        left: 84%;
+    }
+    .contact-form {
+        padding: 0;
+    }
+    .contact-page .page-pad {
+        padding-bottom: 15px;
+    }
+    .contact-form {
+        max-width: 350px;
+        margin: auto;
+    }
+    .contact-box .contact-details p a {
+        font-size: 12px;
+      }
+    /* Contact Page End */
+    /* Airline Start */
+
+    .airlines ul li {
+        max-width: 350px;
+        flex: 0 0 100%;
+        margin: 0px auto 20px;
+    }
+    .airline-search .btn img{
+        height: 50px;
+    }
+    .airline-search .form-control {
+        height: 70px;
+    }
+    /* Airline Ends */
+
+    /* Fare Page Start */
+
+   .airways .logo {
+        flex: 0 0 100%;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .fare-box {
+        flex-direction: column;
+    }
+    .dep-box h3, .dest-box h3,.dep-box p:nth-of-type(1), .dest-box p:nth-of-type(1),.dep-box p:nth-of-type(2), .dest-box p:nth-of-type(2) {
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .dep-box img {
+        left: 46%;
+        top: 108%;
+        transform: rotate(90deg);
+    }
+    .dep-box::after {
+        top: 118%;
+        left: 32%;
+    }
+    .price-box {
+        width: 100%;
+        flex: 0 0 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .fare-box::after {
+        width: 255px;
+        left: 5%;
+    }
+    .fare-contact-box {
+        flex-direction: column;
+    }
+    .airways {
+        flex-direction: column;
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    .dep-box {
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+    .dest-box {
+        margin-left: 0px;
+    }
+    .dep-box, .dest-box {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    .fare-contact-box P {
+        margin-bottom: 5px;
+    }
+    .fares-page .main-box{
+        max-width: 320px;
+        margin: 0 auto 20px;
+    }
+    .pop-up .modal-body {
+        padding: 0 3px;
+    }
+    .pop-up .modal-body .enquiry-btns{
+        width: 100%;
+    }
+    .pop-up .modal-body .enquiry-btns p:nth-of-type(1), .pop-up .modal-body .enquiry-btns p:nth-of-type(2) {
+        flex: 0 0 50%;
+    }
+    .modal-content {
+        max-width: 350px;
+    }
+    .pop-up .modal-header {
+        padding: 20px 30px 15px;
+    }
+    .fare-enquiry {
+        padding: 25px 10px 0;
+    }
+    .pop-up .modal-footer {
+        padding: 12px 0;
+    }
+    .fare-enquiry .form-control {
+        height: 40px;
+        padding: 14px 14px 20px;
+    }
+    .fare-enquiry .form-control {
+        padding: 14px 14px 14px;
+    }
+    .fare-enquiry .input-group-text {
+        top: 4px;
+    }
+    /* Fare Page Ends */
+
+}

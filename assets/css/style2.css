@@ -1,0 +1,25 @@
+.wrapper {
+    background: #000;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+}
+
+.portrait {
+    font-size: 10px;
+    line-height: 10px;
+    background: url('../images/81962312_792106994625318_485299981251510272_n.png') center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: initial;
+    height: 895px;
+}
+
+
+/* This pat is important for the feature itself */
+
+.portrait {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, .1);
+}

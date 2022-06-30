@@ -1,0 +1,317 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+ol,
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+*::-moz-selection {
+  background: #3e86f5;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #3e86f5;
+  color: #fff;
+}
+
+::selection {
+  background: #3e86f5;
+  color: #fff;
+}
+header.header {
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.call-now a {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 24px;
+}
+.call-now a span {
+  font-size: 22px;
+  font-weight: 200;
+}
+.navigation {
+  top: 113px;
+}
+.nav-bar {
+  z-index: 9;
+}
+.stellarnav ul li a {
+  color: #fff;
+  font-size: 18px;
+  padding: 0px 12px;
+  transition: background-color 0.5s ease, color 0.5s ease, border-radius 0.5s ease;
+}
+.stellarnav ul li a:hover {
+  background-color: #3e86f5;
+  color: #fff;
+  border-radius: 5px;
+}
+.stellarnav ul li {
+  margin-right: 35px;
+}
+.stellarnav ul li.active a {
+  background-color: #3e86f5;
+  border-radius: 5px;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+.stellarnav ul li.active a:hover {
+  background-color: #fff;
+  color: #3e86f5;
+}
+.travixum-slider .swiper-button-next,
+.travixum-slider .swiper-button-prev {
+  width: 34px;
+  height: 34px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.travixum-slider .swiper-button-next::after,
+.travixum-slider .swiper-button-prev::after {
+  font-size: 20px;
+  font-weight: 600;
+}
+.travixum-slider .swiper-button-next {
+  right: 53px;
+}
+.travixum-slider .swiper-button-prev {
+  left: 53px;
+}
+.offter-header h3 {
+  font-size: 36px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #3e86f5;
+  padding: 14px 12px 10px 12px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 0;
+}
+.offter-footer h5 {
+  font-size: 26px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #3e86f5;
+  padding: 7px 0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 0;
+}
+.offer-rate h2,
+.offer-rate span {
+  font-weight: bold;
+  font-size: 74px;
+  color: #fff;
+  margin-bottom: 0;
+}
+.offer-rate span {
+  font-weight: 200;
+  line-height: 59px;
+  font-size: 42px;
+}
+.offer-rate sup {
+  font-size: 40px;
+  font-weight: 300;
+  color: #fff;
+  position: absolute;
+  bottom: 17px;
+  top: auto;
+  left: 31px;
+}
+.offer-rate sub {
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+  position: relative;
+  right: -103px;
+}
+.speical-offers {
+  left: 316px;
+  top: 40%;
+}
+.top-heading {
+  margin-bottom: 80px;
+}
+.top-heading h3 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 0;
+}
+.top-heading p {
+  font-size: 24px;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 0;
+}
+.continents-header a {
+  font-size: 65px;
+  font-weight: 800;
+  color: #656565;
+  text-transform: uppercase;
+  line-height: 60px;
+  max-width: 430px;
+  display: block;
+  margin: auto;
+}
+.continents-content img {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.continents-footer {
+  background-color: #e6e6e6;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-top: 10px;
+  padding: 23px 0 0 0;
+}
+.destination-all p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #000000;
+  margin-bottom: 0;
+}
+.destination-all span {
+  font-size: 26px;
+  font-weight: 600;
+  color: #3e86f5;
+}
+.destination-all h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 0;
+}
+.fares-listing ul li a span {
+  color: #3e86f5;
+  font-weight: bold;
+  margin-left: 50px;
+}
+.fares-listing ul li a {
+  font-size: 20px;
+  font-weight: 400;
+  color: #3a3a3a;
+}
+.fares-listing ul li a span {
+  color: #3e86f5;
+  font-weight: bold;
+}
+.fares-listing ul li a span sup {
+  font-size: 16px;
+  font-weight: 400;
+}
+.fares-listing {
+  padding: 0px 35px 49px 35px;
+}
+.fares-listing ul li {
+  flex: 0 0 50%;
+}
+.fares-listing ul li:nth-child(even) {
+  text-align: right;
+}
+.fares-listing ul {
+  padding: 15px 0 0 0;
+}
+.continents {
+  margin-bottom: 105px;
+}
+.view-fares .btn-fares {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #3e86f5;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+}
+.view-fares {
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -25px;
+}
+/* Footer start here */
+.top-footer {
+  background-color: #3e86f5;
+  padding: 53px 0 0 0;
+}
+.footer .footer-logo {
+  margin-bottom: 62px;
+}
+.footer h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+}
+.footer-inner {
+  border-right: 1px solid #fff;
+  margin-bottom: 63px;
+}
+.footer ul {
+  padding-left: 20px;
+}
+ul.social-links {
+  margin-bottom: 30px;
+}
+ul.social-links li {
+  margin-right: 20px;
+}
+ul.social-links li:last-child {
+  margin-right: 0;
+}
+ul.atol-ibata li {
+  margin-right: 5px;
+}
+.footer ul li a,
+.footer ul li {
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+}
+.footer ul li {
+  margin-bottom: 12px;
+}
+.footer ul li.active a {
+  background-color: #fff;
+  color: #3e86f5;
+  padding: 2px 6px;
+  border-radius: 5px;
+}
+.bottom-footer{
+  padding: 25px 0 50px 0;
+}
+.bottom-footer h5{
+  font-size: 20px;
+  font-weight: 500;
+  color: #222222;
+  margin-bottom: 8px;
+}
+.bottom-footer p{
+  font-size: 16px;
+  font-weight: 200;
+  color: #404040;
+}

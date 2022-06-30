@@ -1,0 +1,1606 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+.ui-widget {
+    font-family: "Poppins", sans-serif !important;
+}
+
+ol,
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+strong {
+    font-weight: 700;
+}
+
+
+/* Header CSS Start */
+
+.top-heading {
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.sub-page header.header {
+    background-color: #3e86f5;
+}
+
+.sub-page .stellarnav ul li a {
+    color: #565656;
+}
+
+.sub-page .stellarnav ul li.active a:hover {
+    background-color: #3e85f4;
+    color: #fff;
+}
+
+.sub-page .stellarnav ul li a:hover {
+    background-color: #3e85f4;
+    color: #fff;
+}
+
+.sub-page .stellarnav ul li.active a {
+    background-color: #3e86f5;
+    border-radius: 5px;
+    color: #fff;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.sub-page .breadcrumb-item a {
+    font-size: 22px;
+    font-weight: 300;
+    color: #000;
+}
+
+.sub-page .breadcrumb {
+    margin-top: 10px;
+}
+
+.sub-page .breadcrumb-item.active {
+    font-size: 22px;
+    font-weight: 300;
+    color: #000;
+}
+
+.sub-page .breadcrumb-item img {
+    margin-left: 9px;
+}
+
+.sub-page .navigation {
+    top: 130px;
+}
+
+
+/* Header CSS Ends */
+
+
+/* Country Page CSS Start */
+
+.page-pad {
+    padding-top: 175px;
+    padding-bottom: 60px;
+}
+
+.country-main {
+    margin-top: 35px;
+}
+
+.country-main h2 {
+    font-size: 48px;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+}
+
+.country-main p {
+    font-size: 24px;
+    font-weight: 300;
+    color: #000;
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+.dest-city {
+    padding: 35px 25px 18px;
+    background-color: #e3e3e3;
+    margin-bottom: 30px;
+    transition: all 0.3s;
+}
+
+.dest-city:hover {
+    background-color: #d1e2fd;
+    transition: all 0.3s;
+}
+
+.dest-city p:nth-of-type(1) {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+.dest-city p:nth-of-type(2) {
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 18px;
+    text-align: left;
+}
+
+.dest-city p:nth-of-type(3) {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    margin-bottom: 0px;
+}
+
+.dest-city p:nth-of-type(3) span:nth-of-type(1) {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.dest-city p:nth-of-type(3) span:nth-of-type(2) {
+    font-size: 22.7px;
+    font-weight: 400;
+    color: #4c8df6;
+    position: relative;
+}
+
+.dest-city p:nth-of-type(3) span:nth-of-type(2) sup {
+    font-size: 15px;
+    font-weight: 300;
+    position: absolute;
+    top: 0;
+    left: -12px;
+}
+
+.dest-city a img {
+    margin-bottom: 16px;
+}
+
+.dest-city a:nth-last-of-type(1) {
+    display: block;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    padding: 10px 0 6px;
+    text-align: center;
+    background-color: #3e86f5;
+    position: relative;
+}
+
+.dest-city a:nth-last-of-type(1)::after {
+    content: "";
+    height: 50px;
+    width: 102%;
+    border: 2px solid #fff;
+    position: absolute;
+    left: -4px;
+    top: 0;
+    transform: rotate(-2deg);
+}
+
+.load-more-btn {
+    margin-top: 45px;
+    text-align: center;
+}
+
+.load-more-btn a {
+    display: inline-block;
+    padding: 17px 34px;
+    color: #3e86f5;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+}
+
+.load-more-btn a::after {
+    content: "";
+    height: 50px;
+    width: 100%;
+    border: 2px solid #3e86f5;
+    position: absolute;
+    left: -4px;
+    top: 0;
+    transform: rotate(-2deg);
+}
+
+
+/* Country Page CSS ENDS */
+
+
+/* Cities Page CSS Start */
+
+.city-pkg {
+    padding: 0 85px;
+    margin-top: 40px;
+}
+
+.city-pkg h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+}
+
+.city-pkg p:nth-of-type(1) {
+    font-size: 20px;
+    font-weight: 300;
+    color: #000;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.city-box {
+    padding: 25px 15px 15px 25px;
+    background-color: #f0f0f0;
+}
+
+.city-box p:nth-of-type(1) {
+    font-size: 22px;
+    font-weight: 300;
+    color: #4b4a4a;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.city-box p:nth-of-type(2) {
+    font-size: 18px;
+    font-weight: 500;
+    color: #4b4a4a;
+    margin-bottom: 12px;
+}
+
+.city-box img {
+    margin-bottom: 10px;
+    transform: rotate(90deg);
+}
+
+.city-box p:nth-of-type(3) {
+    font-size: 47.82px;
+    font-weight: 500;
+    color: #4b4a4a;
+    margin-bottom: 32px;
+}
+
+.city-box p:nth-of-type(4) {
+    font-size: 42.56px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #3e86f5;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.city-box p:nth-of-type(4) span {
+    display: inline-block;
+    padding: 11px 18px 9px 21px;
+    background-color: #fff;
+    border-radius: 50px 50px 0 50px;
+}
+
+.city-box p:nth-of-type(4) span sup {
+    font-size: 25.13px;
+    font-weight: 300;
+    top: -20px;
+}
+
+.veiw-btn {
+    margin-top: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.veiw-btn a {
+    display: block;
+    font-size: 22px;
+    font-weight: 500;
+    background-color: #f0f0f0;
+    padding: 6px 0;
+    color: #3e86f5;
+    position: relative;
+}
+
+.veiw-btn a::after {
+    content: "";
+    height: 50px;
+    width: 101%;
+    border: 2px solid #468bf5;
+    position: absolute;
+    left: -4px;
+    top: 0;
+    transform: rotate(-1deg);
+}
+
+
+/* Cities Page CSS ENDS */
+
+
+/* Privacy Page CSS ENDS */
+
+.main-privacy-box h2 {
+    font-size: 42px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.main-privacy-box h3 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.main-privacy-box p {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 35px;
+    letter-spacing: -1px;
+}
+
+.main-privacy-box ul:nth-of-type(1),
+.main-privacy-box ul:nth-of-type(2) {
+    padding-left: 75px;
+    margin-bottom: 38px;
+}
+
+.main-privacy-box ul:nth-of-type(1) li,
+.main-privacy-box ul:nth-of-type(2) li {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.main-privacy-box ul:nth-of-type(2) li {
+    font-size: 18px;
+}
+
+.main-privacy-box ul:nth-of-type(1) {
+    list-style-type: decimal;
+}
+
+.main-privacy-box ul:nth-of-type(2) {
+    list-style-type: disc;
+}
+
+.main-privacy-box ul:nth-of-type(2) li::marker {
+    color: #3e86f5;
+}
+
+
+/* Privacy Page CSS ENDS */
+
+
+/*Contact Us Page CSS Start */
+
+.contact-page .page-pad {
+    padding-bottom: 101px;
+}
+
+.contact-row {
+    margin-top: 50px;
+}
+
+.contact-box {
+    box-shadow: 5px 5px 10px -5px #bfbfbf;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.contact-box .contact-details {
+    /* padding: 27px 0; */
+    display: inline-block;
+    text-align: center;
+    flex: 80%;
+}
+
+.contact-box .contact-details h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #4f4f4f;
+    margin-bottom: 12px;
+}
+
+.contact-box .contact-details p,
+.contact-box .contact-details p a {
+    margin-bottom: 0;
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.contact-box .contact-details ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 50px;
+}
+
+.get-in-touch {
+    padding: 88px 255px 84px;
+    text-align: center;
+}
+
+.get-in-touch h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #616161;
+    margin-bottom: 15px;
+}
+
+.get-in-touch>p:nth-of-type(1) {
+    font-size: 16px;
+    font-weight: 400;
+    color: #616161;
+    letter-spacing: -1px;
+    line-height: 17px;
+}
+
+.timings {
+    margin-top: 40px;
+    /* margin-bottom: 85px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timings .time {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+    text-align: left;
+}
+
+.timings .time .time-content {
+    margin-left: 15px;
+}
+
+.timings .time .time-content h3 {
+    font-size: 26px;
+    font-weight: 500;
+    color: #3e86f5;
+    margin-bottom: 10px;
+}
+
+.timings .time .time-content p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #616161;
+    margin-bottom: 0px;
+}
+
+.contact-form {
+    padding: 0 115px;
+}
+
+.form {
+    padding: 35px 77px 49px;
+    background-color: #f7f7f7;
+}
+
+.form h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #606060;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.contact-input label {
+    font-size: 16px;
+    font-weight: 300;
+    color: #606060;
+    margin-bottom: 0;
+}
+
+.contact-input img {
+    position: relative;
+    left: 92%;
+    top: -32px;
+}
+
+.contact-input textarea {
+    border: 1px solid #606060;
+}
+
+.contact-input input::placeholder,
+.contact-input textarea::placeholder {
+    font-size: 14px;
+    font-weight: 200;
+    color: #6e6e6e;
+}
+
+.contact-input input {
+    height: 43px;
+    width: 100%;
+    border: 1px solid #606060;
+}
+
+.contact-input input[type="submit"] {
+    margin-top: 25px;
+    border: 1px solid transparent;
+    height: 43px;
+}
+
+.contact-input .form-control:focus,
+.airline-search .form-control {
+    box-shadow: none;
+    border: 1px solid #606060;
+}
+
+
+/*Contact Us Page CSS ENDS */
+
+
+/*Airline Page CSS Start */
+
+.airline-search {
+    margin-top: 62px;
+    position: relative;
+    max-width: 485px;
+    margin: auto;
+}
+
+.airline-search input::placeholder {
+    font-size: 18px;
+    font-weight: 400;
+    color: #959595;
+}
+
+.airline-search .form-control {
+    height: 83px;
+    width: 100%;
+    border: 10px solid #3e86f5;
+    padding: 25px 16px;
+}
+
+.airline-search .btn {
+    position: absolute;
+    right: 9px;
+    top: 9px;
+    padding: 0;
+}
+
+.airlines {
+    margin-top: 65px;
+}
+
+.airlines ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.airlines ul li {
+    max-width: 20%;
+    flex: 0 0 20%;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    background-color: #fff;
+}
+
+.airlines ul li a {
+    border: 1px solid #f1f1f1;
+    height: 133px;
+    line-height: 133px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    transition: all 0.5s ease;
+}
+
+.airlines ul li a:hover {
+    border-color: #763565;
+    transition: all 0.5s ease;
+}
+
+.airline-page .page-pad {
+    padding-bottom: 102px;
+}
+
+
+/*Airline Page CSS ENDS */
+
+
+/* Fares Details Page Start */
+
+.fare-details {
+    margin-top: 55px;
+}
+
+.main-box {
+    padding: 28px 25px 15px 13px;
+    background-color: #f3f3f3;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    border: 1px solid transparent;
+    transition: border ease 0.3s;
+}
+
+.main-box:hover {
+    border: 1px solid #0d6efd;
+    transition: border ease 0.3s;
+}
+
+.fare-box {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: flex-start;
+    position: relative;
+}
+
+.airways {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 0 0 80%;
+    width: 80%;
+    justify-content: flex-start;
+    /* padding-bottom: 15px; */
+}
+
+.fare-box::after {
+    content: "";
+    height: 1px;
+    width: 420px;
+    border: 1px dashed #959595;
+    position: absolute;
+    bottom: 0;
+    left: 13%;
+}
+
+.dep-box {
+    margin-left: 25px;
+    position: relative;
+}
+
+.dest-box {
+    margin-left: 95px;
+}
+
+.dep-box,
+.dest-box {
+    flex: 0 0 23%;
+    width: 23%;
+}
+
+.dep-box h3,
+.dest-box h3 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.dep-box p:nth-of-type(1),
+.dest-box p:nth-of-type(1) {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6c6c6c;
+    margin-bottom: 10px;
+}
+
+.dep-box p:nth-of-type(2),
+.dest-box p:nth-of-type(2) {
+    font-size: 10px;
+    font-weight: 300;
+    color: #787878;
+}
+
+.dep-box::after {
+    content: "";
+    height: 1px;
+    width: 95px;
+    border: 1px dashed #959595;
+    position: absolute;
+    top: 20px;
+    left: 75%;
+}
+
+.dep-box img {
+    position: absolute;
+    top: 13px;
+    left: 110%;
+    z-index: 1;
+}
+
+.logo {
+    flex: 0 0 20%;
+    width: 20%;
+}
+
+.price-box {
+    width: 20%;
+    flex: 0 0 20%;
+}
+
+.price-box p:nth-of-type(1) {
+    font-size: 9.1px;
+    font-weight: 400;
+    color: #6c6c6c;
+    margin-bottom: 0;
+    position: relative;
+    top: 1px;
+    left: 10px;
+}
+
+.price-box p:nth-of-type(2) {
+    font-size: 9.1px;
+    font-weight: 400;
+    color: #6c6c6c;
+    margin-bottom: 0;
+    position: relative;
+    top: -10px;
+    text-align: center;
+}
+
+.price-box h3 {
+    font-size: 24.28px;
+    font-weight: 500;
+    color: #3e86f5;
+}
+
+.price-box h3 span {
+    font-size: 12.2px;
+    font-weight: 300;
+    color: #518ff5;
+}
+
+.price-box a {
+    display: inline-block;
+    padding: 3px 16px;
+    background-color: #3e85f4;
+    font-size: 12.13px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.fare-contact-box {
+    display: flex;
+    flex-direction: row;
+    padding-left: 32px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.fare-contact-box P {
+    margin-bottom: 0;
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.fare-contact-box P:nth-of-type(2) {
+    font-size: 18px;
+}
+
+.fare-contact-box P:nth-of-type(2) img {
+    margin-right: 5px;
+}
+
+
+/* pop Up Form Html */
+
+.pop-up .modal-dialog {
+    max-width: 928px;
+}
+
+.pop-up .modal-header {
+    padding: 50px 50px 15px;
+    border: none;
+}
+
+.pop-up .modal-footer {
+    border: none;
+}
+
+.pop-up .btn-close {
+    background-image: none;
+    background-color: #3e86f5;
+    opacity: 1;
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+}
+
+.pop-up .btn-close:focus {
+    box-shadow: none;
+}
+
+.pop-up .btn-close img {
+    vertical-align: baseline;
+    transform: translateY(24%);
+}
+
+.pop-up .modal-header h5 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #8d8d8d;
+}
+
+.pop-up .modal-body .enquiry-btns {
+    display: inline-flex;
+    background-color: #f2f2f2;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.pop-up .modal-body {
+    padding: 0 50px;
+}
+
+.pop-up .modal-body .enquiry-btns p {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+    color: #565656;
+    align-items: center;
+    cursor: pointer;
+}
+
+.pop-up .modal-body .enquiry-btns p:nth-of-type(1) {
+    padding: 8px 19px 6px 18px;
+}
+
+.pop-up .modal-body .enquiry-btns p:nth-of-type(2) {
+    padding: 7px 25px 6px 27px;
+}
+
+.pop-up .modal-body .enquiry-btns p:nth-of-type(1) img {
+    margin-right: 5px;
+}
+
+.pop-up .modal-body .enquiry-btns p:nth-of-type(2) img {
+    margin-right: 6px;
+}
+
+.pop-up .modal-body .enquiry-btns .active {
+    display: inline-block;
+    background-color: #3e86f5;
+    color: #fff;
+    align-items: baseline;
+}
+
+.pop-up .modal-footer {
+    padding: 36px 0;
+}
+
+.fare-enquiry {
+    padding: 48px 70px 0;
+}
+
+.fare-enquiry .form-control[id="answer"] {
+    position: relative;
+}
+
+.fare-enquiry .input-group-text {
+    background-color: transparent;
+    border: 1px solid #afafaf;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 8px;
+}
+
+.fare-enquiry .enq-input {
+    margin-bottom: 32px;
+}
+
+.fare-enquiry .enq-input:nth-last-of-type(1) {
+    margin-bottom: 24px;
+}
+
+.fare-enquiry .enq-input .form-label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #7d7d7d;
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.fare-enquiry .form-control {
+    border: 1px solid #afafaf;
+    height: 47px;
+    padding: 14px 22px 20px;
+    width: 100%;
+    border-radius: 10px !important;
+}
+
+.fare-enquiry .form-control:focus {
+    box-shadow: none;
+}
+
+.fare-enquiry {
+    margin-bottom: 0;
+}
+
+.fare-enquiry input::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9d9c9c;
+}
+
+.fare-enquiry .btn {
+    height: 47px;
+    width: 100%;
+    text-align: center;
+    background-color: #3e86f5;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+.fare-enquiry .form-check-input {
+    border: 1px solid #000;
+    border-radius: 0;
+    height: 12px;
+    width: 12px;
+}
+
+.fare-enquiry .form-check-input:checked {
+    background-color: #0d6efd;
+    border: 1px solid #0d6efd;
+    box-shadow: none;
+}
+
+.fare-enquiry .form-check-input:focus {
+    box-shadow: none;
+}
+
+.fare-enquiry .enq-content {
+    margin-bottom: 16px;
+}
+
+.fare-enquiry .enq-content p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #3e3e3e;
+}
+
+.fare-enquiry .enq-content .form-check .form-check-label {
+    font-size: 12px;
+    font-weight: 300;
+    color: #3e3e3e;
+}
+
+.fare-enquiry .enq-disclamer {
+    margin-top: 4px;
+}
+
+.fare-enquiry .enq-disclamer h4 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #616161;
+}
+
+.fare-enquiry .enq-disclamer p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #6b6b6b;
+    margin-bottom: 0;
+}
+
+
+/* pop Up Form Html */
+
+
+/* Fares Details Page Ends*/
+
+
+/* Search Engine CSS Start */
+
+.search-engine {
+    position: relative;
+}
+
+.search-main {
+    position: absolute;
+    top: -151px;
+    z-index: 1;
+    max-width: 77.3%;
+}
+
+.search-main .form {
+    padding: 0;
+}
+
+.flights-btns {
+    display: inline-flex;
+    overflow: hidden;
+    flex-direction: row;
+    position: relative;
+    left: -12px;
+}
+
+.flights-btns.rounded-top {
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+}
+
+.flights-btns p {
+    display: inline-block;
+    font-size: 16.6px;
+    font-weight: 400;
+    color: #3e86f5;
+    background-color: #fff;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.flights-btns p:nth-of-type(1) {
+    padding: 16px 16px 10px 20px;
+}
+
+.flights-btns p:nth-of-type(2) {
+    padding: 16px 28px 10px 28px;
+}
+
+.flights-btns p.active {
+    background-color: #3e86f5;
+    color: #fff;
+}
+
+.flights-btns p:nth-of-type(1)::after {
+    content: " ";
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+.flights-btns p:nth-of-type(2)::after {
+    content: " ";
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+.form-box {
+    background-color: #fff;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.search-form .destination {
+    background-image: url("../images/icons/placeholder-bg.png");
+}
+
+.search-form .date {
+    background-image: url("../images/icons/calender-bg.png");
+}
+
+.search-form .passenger-box {
+    background-image: url("../images/icons/passenger-bg.png");
+}
+
+.form-box h3 {
+    padding-top: 22px;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #3e86f5;
+    text-align: center;
+}
+
+.form-box.border-end {
+    border-right: 1px solid #aaaaaa !important;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 25px 36px 25px;
+}
+
+.form-input .form-control {
+    flex: 0 0 40%;
+    padding: 0;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.form-input .form-control::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+
+.form-input .input-group {
+    flex: 0 0 40%;
+    padding: 0;
+    display: inline-block;
+}
+
+.form-input .input-group input {
+    width: 100%;
+}
+
+.form-input .input-group img {
+    position: absolute;
+    right: 0;
+    top: 16px;
+    z-index: 3;
+}
+
+.form-input .border-bottom {
+    border-bottom: 1px solid #9e9e9e !important;
+}
+
+.form-input.passenger .input-group {
+    position: relative;
+    flex: 0 0 25%;
+}
+
+.form-input.passenger .input-group .form-select {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    top: 0;
+    right: 0;
+    background-image: none;
+    text-align: right;
+    background: none;
+    box-shadow: none;
+}
+
+.search {
+    width: 100%;
+    padding: 46px 0;
+    background-color: #0d6efd;
+    border-radius: 0;
+}
+
+.search h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.search-engine .btn {
+    box-shadow: none;
+}
+
+
+/* DatePicker */
+
+.ui-datepicker .ui-datepicker-header {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    font-size: 12.46px;
+    font-weight: bold;
+}
+
+.ui-widget.ui-widget-content {
+    border: none;
+    box-shadow: 0px 0px 5px #0000002e;
+}
+
+.ui-datepicker table {
+    width: 100%;
+    font-size: 12.46px;
+    border-collapse: collapse;
+    margin: 0 0 .4em;
+    background-color: #fff;
+    color: #888888;
+}
+
+.ui-widget-content {
+    max-width: 215px;
+}
+
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -8px;
+    top: 50%;
+    margin-top: -8px;
+    background-color: #3e86f5;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+}
+
+.ui-datepicker .ui-datepicker-prev {
+    top: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    left: 30px;
+}
+
+.ui-datepicker .ui-datepicker-next {
+    top: 5px;
+    width: 15px;
+    height: 15px;
+    right: 30px;
+}
+
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+    top: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}
+
+.ui-datepicker td span,
+.ui-datepicker td a {
+    display: block;
+    padding: 0 2px;
+    text-decoration: none;
+    height: 16px;
+    width: 20px;
+    border-radius: 5px;
+    font-size: 10.68px;
+    font-weight: bold !important;
+    text-align: center;
+    color: #888888 !important;
+    border: transparent !important;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active {
+    border: 1px solid #003eff;
+    background: #007fff;
+    color: #fff !important;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover {
+    background-color: #007fff;
+    color: #fff !important;
+}
+
+.ui-widget-header .ui-datepicker-prev .ui-icon {
+    background-image: url("../images/icons/calender-arrow.png");
+    background-position: center;
+}
+
+.ui-widget-header .ui-datepicker-next .ui-icon {
+    background-image: url("../images/icons/calender-arrow.png");
+    background-position: center;
+    transform: rotate(180deg);
+}
+
+
+/* DatePicker Ends */
+
+
+/* Passenger Start*/
+
+.passenger-select {
+    position: relative;
+}
+
+.beat-passenger-dropdown {
+    position: absolute;
+    background-color: #ffff;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.adult-pass,
+.child-pass,
+.infant-pass {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.adult-pass .btn,
+.child-pass .btn,
+.infant-pass .btn {
+    position: absolute;
+    width: 50px;
+}
+
+.beat-passenger-dropdown input {
+    text-align: center;
+    height: 47px;
+    border: 1px solid #0d6efd;
+}
+
+.beat-passenger-dropdown .plus,
+.beat-passenger-dropdown .minus {
+    z-index: 4;
+    box-shadow: none;
+}
+
+.beat-passenger-dropdown .plus:focus,
+.beat-passenger-dropdown .minus:focus {
+    box-shadow: none;
+}
+
+.beat-passenger-dropdown .plus {
+    right: 0;
+}
+
+.beat-passenger-dropdown .btn-outline-info:hover {
+    border: none;
+}
+
+
+/* Passenger Ends*/
+
+.form-input.passenger-select .form-control {
+    flex: 0 0 100%;
+    padding: 0;
+    box-shadow: none;
+}
+
+.search-engine .passenger .btn,
+.beat-passenger-dropdown .btn {
+    height: 100%;
+    width: 50px;
+    padding: 10px;
+    background-color: #007fff;
+    top: 0;
+}
+
+.beat-passenger-dropdown .btn {
+    width: 100%;
+    color: #fff;
+}
+
+.search-engine .plus {
+    right: -3px;
+}
+
+.search-engine .minus {
+    left: -3px;
+}
+
+.beat-passenger-dropdown .input-group img {
+    position: relative;
+    top: auto;
+}
+
+.search-engine .beat-passenger-dropdown {
+    position: absolute;
+    background-color: #ffff;
+    width: 85%;
+    text-align: center;
+    padding: 20px;
+    top: 60%;
+}
+
+.search-engine .beat-passenger-dropdown input {
+    border: 1px solid #afafaf;
+    height: 47px;
+    padding: 14px 22px 20px;
+    width: 100%;
+    border-radius: 10px !important;
+}
+
+.error-item .border-bottom {
+    border-bottom: 2px solid #fa2222 !important;
+    box-shadow: 0px 2px 8px 0px #fa2222 !important;
+}
+
+
+/* Search Engine CSS Ends */
+
+
+/* Login Form Start*/
+
+.a-form-input .form-control {
+    width: 100%;
+    height: 48px;
+    padding: 15px 25px;
+    background: #f500fd0a;
+    box-shadow: 0 0px 10px -5px #f00;
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+}
+
+.a-form-input .form-control[type=file] {
+    width: 100%;
+    height: 48px;
+    padding: 11px 18px;
+}
+
+.airline-page-register {
+    background-color: #0064ff70;
+}
+
+.sub-page-register .stellarnav ul li a {
+    color: #fff;
+}
+
+.sub-page-register .breadcrumb-item a {
+    color: #fff;
+}
+
+.register {
+    background-color: #0040ff8f;
+    padding: 50px;
+    max-width: 75%;
+    margin: 50px auto;
+}
+
+.register h3 {
+    font-size: 48px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 35px;
+}
+
+.sub-page-register .form-floating>label {
+    font-family: 'Fugaz One', cursive;
+    font-weight: 500;
+    color: #fff;
+}
+
+.a-form-input .btn,
+.register-btn {
+    width: 100%;
+    background-color: #0569ce;
+    font-family: 'Pacifico', cursive;
+    font-weight: 700;
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 0;
+    box-shadow: 0 0px 10px -5px #fff9ff;
+}
+
+.a-form-input .btn a,
+.register-btn a {
+    color: #fff;
+}
+
+.psw-error,
+.psw-success {
+    background-color: rgba(128, 0, 0, 0.3);
+    margin-bottom: 12px;
+}
+
+.psw-success {
+    background-color: rgb(97, 255, 6);
+}
+
+.psw-error p,
+.psw-success p,
+.register p {
+    font-family: 'Fugaz One', cursive;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    padding: 10px 20px;
+    text-shadow: 0 0 5px #000;
+}
+
+.register p {
+    background-color: #007fff;
+    text-align: center;
+}
+
+.a-form-input .error {
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Fugaz One', cursive;
+    font-weight: 500;
+}
+
+h1.psw-success,
+h1.psw-error,
+p.psw-error,
+.airlines .alert-heading {
+    font-family: 'Fugaz One', cursive;
+    font-weight: 700;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+h1.psw-error,
+p.psw-error {
+    background-color: red;
+}
+
+.airlines .alert-heading {
+    background-color: #007fff;
+    padding: 10px 0;
+    border-width: 5px;
+    border-style: solid;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-color: rgb(222, 19, 230)rgb(18, 245, 55) #fa6914 #17f7eb;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.airlines .alert-heading {
+    flex: 0 0 60%;
+    height: fit-content;
+    align-self: center;
+    width: 60%;
+}
+
+.profile-image {
+    border-radius: 10%;
+    background-color: #003eff;
+    flex: 0 0 15%;
+    overflow: hidden;
+    margin-bottom: 30px;
+    width: 15%;
+    height: 195px;
+}
+
+.profile-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.dwd-btn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #932525;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.dwd-btn a {
+    display: inline-block;
+    background-color: #17f7eb;
+    font-family: 'Fugaz One', cursive;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0px 3px 5px #f00;
+    padding: 15px 25px;
+    box-shadow: 0px 5px 6px #0000004f;
+    margin: 25px;
+    flex: 0 0 20%;
+    text-align: center;
+}
+
+
+/* Login Form Ends*/
